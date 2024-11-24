@@ -1,3 +1,5 @@
+# Folder module documentation
+
 ### Function: `ensure_folder_exists`
 
 Ensures that a specified folder exists and is valid. If the folder does not exist, it is created. Logs the process and raises an error if the path is not a directory.

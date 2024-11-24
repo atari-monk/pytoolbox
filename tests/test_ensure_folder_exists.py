@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from pytoolbox.file_system import ensure_folder_exists
+from pytoolbox.folder import ensure_folder_exists
 import tempfile
 
 def test_create_folder():
