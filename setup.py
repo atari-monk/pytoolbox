@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="atari_monk_pytoolbox",
-    version="0.1.1",
+    name="atari-monk-pytoolbox",
+    version="0.1.2",
     packages=find_packages(),
     entry_points={},
-    install_requires=["atari_monk_cli_logger"],
+    install_requires=["atari-monk-cli-logger"],
     description="A tools package.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
